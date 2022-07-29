@@ -301,3 +301,25 @@ ul {
     z-index:100;
     transition: all 300ms ease;
 }
+/*MEDIA DEL WSPP*/
+@media only screen and (min-width:320px) and (max-width:768px){
+	.btn-wsp{
+	   width:63px;
+	   height:63px;
+	   line-height: 66px;
+   }
+}
+
+/*MEDIA DE PIE DE PAGINA*/
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .fuentehome img{
+        border-radius: 15px;
+        height: 35vw;
+    }
+}
